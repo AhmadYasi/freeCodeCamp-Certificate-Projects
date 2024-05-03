@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+    
+}
+body {
+    display: flex;
+    margin: 0;
+}
+/* navigation bar */
+nav {
+    width: 35%;
+    border-right: 2px solid gray;
+    height: 100vh; 
+    overflow-y: auto; 
+    width: 120vh;
+}
+
+nav h1 {
+    position: sticky;
+    top: 0;
+    background-color: white; 
+    z-index: 1; 
+    font-size: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: lighter;
+}
+
+nav a {
+    text-decoration: none;
+    padding-left: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: gray;
+    font-size: 18px;
+}
+
+nav .header {
+    position: relative;
+}
+
+
+/* body */
+.body {
+    overflow-y: auto; 
+    height: 100vh;
+}
+.introduction, .what, .java, .hello, .variables, .scope, .delcare {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.snippet {
+    background-color: #F7F7F7;
+    padding: 10px;
+}
